@@ -1,0 +1,242 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=DM+Sans:wght@300;400;500&display=swap');
+  :root {
+    --coff-dk: #2C1A0E;
+    --coff-md: #7B4A23;
+    --coff-lt: #C8895A;
+    --coff-cr: #F4E3CC;
+    --coff-fm: #FAF3E8;
+    --gold: #A0622E;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--coff-fm); color: var(--coff-dk); }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 0 48px; }
+
+  header {
+    background: var(--coff-dk);
+    padding: 28px 32px 24px;
+    border-bottom: 3px solid var(--gold);
+  }
+  .header-badge {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: var(--coff-lt);
+    margin-bottom: 8px;
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--coff-fm);
+    margin-bottom: 4px;
+  }
+  header p {
+    font-size: 12px;
+    color: var(--coff-cr);
+    font-weight: 300;
+  }
+
+  .content { padding: 32px; }
+
+  .intro-box {
+    background: var(--coff-cr);
+    border-left: 3px solid var(--gold);
+    border-radius: 0;
+    padding: 16px 18px;
+    margin-bottom: 32px;
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: var(--coff-dk);
+    font-weight: 400;
+  }
+
+  .section { margin-bottom: 28px; }
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--coff-dk);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(92,51,23,0.15);
+  }
+  .section-title i {
+    font-size: 16px;
+    color: var(--gold);
+  }
+  .section p {
+    font-size: 13.5px;
+    line-height: 1.75;
+    color: #4A2E18;
+    font-weight: 300;
+  }
+
+  .disclosure-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .disclosure-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: white;
+    border: 0.5px solid rgba(92,51,23,0.12);
+    border-radius: var(--border-radius-md);
+    padding: 12px 14px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #4A2E18;
+    font-weight: 300;
+  }
+  .disc-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 6px;
+  }
+
+  .contact-card {
+    background: var(--coff-dk);
+    border-radius: var(--border-radius-lg);
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 10px;
+  }
+  .contact-icon {
+    width: 38px;
+    height: 38px;
+    background: rgba(200,137,90,0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--coff-lt);
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .contact-label { font-size: 11px; color: var(--coff-lt); font-weight: 400; margin-bottom: 2px; }
+  .contact-email { font-size: 13.5px; color: var(--coff-fm); font-weight: 400; }
+
+  footer {
+    margin: 0 32px;
+    padding-top: 20px;
+    border-top: 0.5px solid rgba(92,51,23,0.2);
+    font-size: 11.5px;
+    color: #A0806A;
+    font-weight: 300;
+    text-align: center;
+  }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="header-badge">iHRMS Punjab · NIC</div>
+    <h1>Privacy Policy</h1>
+    <p>iHRMS-Punjab Mobile Application &nbsp;·&nbsp; hrms.punjab.gov.in</p>
+  </header>
+
+  <div class="content">
+
+    <div class="intro-box">
+      This privacy policy governs your use of the iHRMS-Punjab mobile application hosted at NIC's e-Gov Mobile App Account in Google Play Store. Contents published on these applications were provided by the concerned Departments/Boards/Corporations of Government of Punjab as per the Orders of Punjab Government for the implementation of iHRMS. This information may not have any legal sanctity and is for general reference only, unless otherwise specified. Though every effort has been made to provide accurate and reliable information, users are advised to verify the correctness of the facts from the concerned authorities. National Informatics Centre, Punjab will not be responsible for the accuracy and correctness of the contents available in the application as this is the responsibility of the government entities of Punjab.
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-user" aria-hidden="true"></i>
+        User provided information
+      </div>
+      <p>The application will work based upon authenticated login ID and password provided to the employee at the time of registration by the establishment office. Please keep in mind that you may not be able to use features offered by the application unless a correct login ID and password are provided.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-cpu" aria-hidden="true"></i>
+        Automatically collected information
+      </div>
+      <p>In addition, the application may collect certain information automatically, including but not limited to: the type of mobile device you use, your mobile device's unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile internet browsers you use, and information about the way you use the application.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-share" aria-hidden="true"></i>
+        Disclosure of information
+      </div>
+      <p>We may disclose user provided and automatically collected information:</p>
+      <div class="disclosure-list">
+        <div class="disclosure-item"><div class="disc-dot"></div><div>As required by law, such as to comply with a subpoena or similar legal process.</div></div>
+        <div class="disclosure-item"><div class="disc-dot"></div><div>When we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.</div></div>
+        <div class="disclosure-item"><div class="disc-dot"></div><div>With our trusted service providers who work on our behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-database" aria-hidden="true"></i>
+        Data retention policy
+      </div>
+      <p>We will retain user provided data for as long as you use the application and for a reasonable time thereafter. Automatically collected information will also be retained for a reasonable period depending on the nature of the application, and may thereafter be stored in aggregate. Some or all of the user provided data may be required for the application to function properly.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+        Misuse by non-targeted users
+      </div>
+      <p>All mobile apps are meant for use by the targeted audience only. Misuse by non-targeted users should be prevented by the owner of the mobile device. Keep your mobile password/pattern protected so that it may not be misused or changed. Also keep changing your password on hrms.punjab.gov.in at regular intervals, as the username and password are provided and updated through the web application.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-lock" aria-hidden="true"></i>
+        Security
+      </div>
+      <p>We are concerned about safeguarding the confidentiality of your information. We provide physical, electronic, and procedural safeguards to protect information we process and maintain. Access to this information is limited to authorized employees who need to know it in order to operate, develop, or improve our application. Please be aware that, although we endeavour to provide reasonable security, no security system can prevent all potential security breaches.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-refresh" aria-hidden="true"></i>
+        Changes to this policy
+      </div>
+      <p>This privacy policy may be updated from time to time for any reason. We will notify you of any changes by posting the new privacy policy with a new version number. You are advised to consult this policy regularly for any changes, as continued use is deemed approval of all changes. You can check the history of this policy by clicking previous privacy policy versions.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-check" aria-hidden="true"></i>
+        Your consent
+      </div>
+      <p>By using the application, you are consenting to our processing of your information as set forth in this privacy policy now and as amended by us.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <i class="ti ti-mail" aria-hidden="true"></i>
+        Contact us
+      </div>
+      <p>If you have any questions regarding privacy while using the application, or have questions about our practices, please contact us:</p>
+      <div class="contact-card">
+        <div class="contact-icon"><i class="ti ti-mail" aria-hidden="true"></i></div>
+        <div>
+          <div class="contact-label">Email support</div>
+          <div class="contact-email">Support-ihrmspb@punjab.gov.in</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>Government of Punjab &nbsp;·&nbsp; National Informatics Centre (NIC) &nbsp;·&nbsp; iHRMS Punjab</footer>
+</div>
